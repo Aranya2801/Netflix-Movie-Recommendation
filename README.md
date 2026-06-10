@@ -31,11 +31,11 @@
 
 | Home & Trending | Personalized Recs | Analytics Dashboard |
 |:-:|:-:|:-:|
-| ![Home](docs/images/home.png) | ![Recs](docs/images/personalized.png) | ![Analytics](docs/images/analytics.png) |
+| ![Home](home.png) | ![Recs](personalized.png) | ![Analytics](analytics.png) |
 
 | Movie Search | Model Evaluation | API Docs |
 |:-:|:-:|:-:|
-| ![Search](docs/images/search.png) | ![Eval](docs/images/evaluation.png) | ![API](docs/images/api.png) |
+| ![Search](search.png) | ![Eval](evaluation.png) | ![API](api.png) |
 
 </div>
 
