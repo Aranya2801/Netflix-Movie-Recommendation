@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data (large files — use DVC or upload separately)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/*.pkl
+data/processed/*.joblib
+!data/sample/*.csv
+
+# Models
+models/saved/*.joblib
+models/saved/*.pkl
+models/saved/*.pt
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
